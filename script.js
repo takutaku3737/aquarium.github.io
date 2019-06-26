@@ -29,6 +29,7 @@ if(window.matchMedia("(min-width:1000px)").matches){
   );
 }
 
+if(window.matchMedia("(min-width:1000px)").matches){
   $('.news-article').hover(
     function(){
       $(this).css('opacity', '0.6')
@@ -36,12 +37,14 @@ if(window.matchMedia("(min-width:1000px)").matches){
       $(this).css('opacity', '1')
     }
   );
+}
 
   setInterval(function(){
     $('.ticket-i').animate({'paddingLeft': '6px'},1500)
                   .animate({'paddingLeft': '0'},1500)
   });
 
+if(window.matchMedia("(min-width:1000px)").matches){
   $('.ticket-buy').hover(
     function(){
       $(this).css('opacity', '0.6')
@@ -49,6 +52,8 @@ if(window.matchMedia("(min-width:1000px)").matches){
       $(this).css('opacity', '1')
     }
   );
+}
+
 
   $('.footer-scroll').click(function(){
     $('html, body').animate({scrollTop: 0});
