@@ -29,6 +29,11 @@
     margin: 10px 20px;
   }
 
+  .footer-scroll:hover{
+    background: white;
+    color: rgba(38, 134, 235, 0.9)
+  }
+
 }
 
 @media(max-width: 670px){
