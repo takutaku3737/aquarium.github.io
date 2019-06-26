@@ -25,6 +25,10 @@
     margin-right: 15%;
   }
 
+  .past-news:hover{
+    opacity: 1;
+  }
+
   .footer-contents-2 li{
     margin: 10px 20px;
   }
