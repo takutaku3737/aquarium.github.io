@@ -1,7 +1,7 @@
 $(function(){
 
   $(window).on("load", function(){
-  $('body').hide().fadeIn(2000);
+  $('body').hide().fadeIn(3000);
   });
 
   $('.top-wrapper').bgSwitcher({
