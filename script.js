@@ -1,7 +1,7 @@
 $(function(){
 
   $('.top-wrapper').bgSwitcher({
-    images: ['https://www.pakutaso.com/shared/img/thumb/KAZ19112B003_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/SAYA1913040_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/tokunoshimaP6040066_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/SHI_iwanouepengimure_TP_V.jpg'],
+    images: ['https://www.pakutaso.com/shared/img/thumb/tokunoshimaP6040066_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/SAYA1913040_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/KAZ19112B003_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/SHI_iwanouepengimure_TP_V.jpg'],
     interval: 7000,
     duration: 3000,
   });
@@ -16,6 +16,7 @@ $(function(){
     $('html, body').animate({scrollTop: position});
   });
 
+if(window.matchMedia("(min-width:1000px)").matches){
   $('.situation-choice').hover(
     function(){
       $(this).find('.situation-absolute').css({'background-color':'rgba(255, 255, 255, 1)', 'color':'rgb(10, 8, 89)'});
@@ -26,6 +27,7 @@ $(function(){
       $(this).find('img').css('transform', 'scale(1)')
     }
   );
+}
 
   $('.news-article').hover(
     function(){
@@ -65,4 +67,3 @@ $(function(){
   });
 
 });
-
