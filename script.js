@@ -1,5 +1,9 @@
 $(function(){
 
+  $(window).on("load", function(){
+  $('body').hide().fadeIn(2000);
+  });
+
   $('.top-wrapper').bgSwitcher({
     images: ['https://www.pakutaso.com/shared/img/thumb/tokunoshimaP6040066_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/SAYA1913040_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/KAZ19112B003_TP_V1.jpg','https://www.pakutaso.com/shared/img/thumb/SHI_iwanouepengimure_TP_V.jpg'],
     interval: 7000,
